@@ -1,0 +1,14 @@
+# create environment with: conda env create -f environment.yml
+# delete environment with: conda remove --name eth-pythonML24 --all
+name: eth-pythonML24
+dependencies:
+  - python=3.12
+  - pytorch::torchvision
+  - pytorch::torchaudio
+  - matplotlib
+  - jupyter
+  - seaborn
+  - pandas
+  - numpy
+  - scikit-learn
+  - random
